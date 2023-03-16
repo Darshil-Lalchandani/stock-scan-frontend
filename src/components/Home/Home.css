@@ -2,28 +2,36 @@
     list-style: none;
     padding-left: 20px;
     text-decoration: underline;
-  }
+}
   
-  .home p {
+.home p {
     margin-bottom: 0px;
-  }
+}
   
-  .home small {
+.home small {
     font-size: 10px;
-  }
+}
+
+.home a {
+    color: white;
+}
   
-  .home hr {
+.home hr {
     border-style: dotted;
-  }
+}
   
-  .green {
+.green {
     color: green;
     text-decoration: underline;
     text-decoration-thickness: 1px;
-  }
+}
   
-  .red {
+.red {
     color: red;
     text-decoration: underline;
     text-decoration-thickness: 1px;
-  }
+}
+
+.home a:hover {
+    text-decoration: none;
+}
