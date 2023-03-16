@@ -1,0 +1,29 @@
+.home {
+    list-style: none;
+    padding-left: 20px;
+    text-decoration: underline;
+  }
+  
+  .home p {
+    margin-bottom: 0px;
+  }
+  
+  .home small {
+    font-size: 10px;
+  }
+  
+  .home hr {
+    border-style: dotted;
+  }
+  
+  .green {
+    color: green;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+  
+  .red {
+    color: red;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
