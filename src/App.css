@@ -11,3 +11,30 @@ body {
   color: white;
   font-family: 'Times New Roman', Times, serif;
 }
+
+small {
+  font-size: 10px;
+}
+
+.green {
+  color: green;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.red {
+  color: red;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.section-header {
+  background-color: #1686b0;
+  width: 400px;
+  height: 60px;
+  padding: 10px 10px;
+}
+
+.section-criteria p {
+  margin-bottom: 0;
+}

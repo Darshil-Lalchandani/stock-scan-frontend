@@ -1,21 +1,17 @@
 import { useRoutes } from "react-router-dom";
-import Gainers from "./components/Gainers/Gainers";
-import Intraday from "./components/Intraday/Intraday";
-import OpenHigh from "./components/OpenHigh/OpenHigh";
-import RSI from "./components/RSI/RSI";
-import CCI from "./components/CCI/CCI";
 import Home from "./components/Home/Home";
+import Section from "./components/Section/Section";
 import data from "./data";
 import "./App.css";
 
 function App() {
   const routes = useRoutes([
     { path: "/", element: <Home data={data} /> },
-    { path: "/top_gainers", element: <Gainers /> },
-    { path: "/intraday_buying", element: <Intraday /> },
-    { path: "/open_high", element: <OpenHigh /> },
-    { path: "/cci_reversal", element: <CCI /> },
-    { path: "/rsi_overbought", element: <RSI /> },
+    { path: "/top_gainers", element: <Section data={data[0]} /> },
+    { path: "/intraday_buying", element: <Section data={data[1]} /> },
+    { path: "/open_high", element: <Section data={data[2]} /> },
+    { path: "/cci_reversal", element: <Section data={data[3]} /> },
+    { path: "/rsi_overbought", element: <Section data={data[4]} /> },
   ]);
 
   return <div className="App">{routes}</div>;
